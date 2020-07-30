@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .page-container{
+            background-image: url(https://raw.githubusercontent.com/Kolland/fe-basics-resources/master/L11-12-HW/404-bg-image.jpg);
+            background-position: center;
+            background-size: cover;
+            min-height: 97vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 16px;
+            box-sizing: border-box;
+        }
+
+        .text-404 {
+            color: antiquewhite;
+            font-size: 209px;
+            display: flex;
+            align-items: center;
+            line-height: 152px;
+        }
+
+        .image-icon {
+            flex-shrink: 0;
+            width: 152px;
+            height: 152px;
+            margin-left: 20px;
+            margin-right: 20px;
+        }
+
+        .warning-text {
+            color: antiquewhite;
+            text-align: center;
+            font-size: 20px;
+            line-height: 48px;
+            margin-top: 50px;
+        }
+
+        .search {
+            text-align: center;
+        }
+            
+
+            
+    </style>
+</head>
+<body>
+    <div class="page-container">
+        <div class="block-404">
+            <div class="text-404">
+                <span>4</span>
+                <img class="image-icon" src="https://raw.githubusercontent.com/Kolland/fe-basics-resources/master/L11-12-HW/404-icon.png" alt="">
+                <span>4</span>
+            </div>
+            
+            <p class="warning-text">Oops!That page can't be found.
+                <br>
+            It looks like nothing was found at this location.
+        </p>
+
+        <div class="search">
+            <input type="search" placeholder="Maybe try a search">
+            <input type="submit" value="Search">
+        </div>
+    </div>
+</div>
+</body>
+</html>
